@@ -29,8 +29,9 @@ const Component = () => (
 ```
 
 ## Props
+
 | Name | Default | Type | Description |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | align | center | center &#124; left &#124; right | An element's horizontal alignment |
 | verticalAlign | center | center &#124; top &#124; bottom | An element's vertical alignment  |
 |containerHeight|fixed| fixed &#124; auto| whether the element is fitted within content |
