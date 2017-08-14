@@ -23,6 +23,7 @@
     "test": "jest --coverage",
     "build": "babel src -d lib",
     "start": "start-storybook -p 8080",
+    "deploy:docs": "storybook-to-ghpages",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "postcover": "nyc npm test && nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "prepublish": "npm run build",
@@ -39,6 +40,7 @@
   },
   "devDependencies": {
     "@kadira/storybook": "^2.35.3",
+    "@storybook/storybook-deployer": "^2.0.0",
     "babel-cli": "^6.24.1",
     "babel-jest": "^20.0.3",
     "babel-preset-flow": "^6.23.0",

@@ -11,6 +11,9 @@ Respect [Scalable](https://github.com/ScriptArtist/Scalable).
 
 ![](./images/readme.gif)
 
+## Demo
+https://abouthiroppy.github.io/react-scalable
+
 ## Install
 ```sh
 $ npm i --save react-scalable
